@@ -1,7 +1,7 @@
 FROM yi/centos7-jdk8u151
-ENV ARTIFACTID my-euerka-server
+ENV ARTIFACTID myeuerkaserver
 ENV ARTIFACTVERSION 0.0.1-SNAPSHOT
 ENV HOME_PATH /home
 WORKDIR $HOME_PATH
 ADD /$ARTIFACTID-$ARTIFACTVERSION.jar $HOME_PATH/$ARTIFACTID.jar
-ENTRYPOINT ["java", "-jar", "my-euerka-server.jar"]
+ENTRYPOINT ["java", "-jar", "myeuerkaserver.jar"]
