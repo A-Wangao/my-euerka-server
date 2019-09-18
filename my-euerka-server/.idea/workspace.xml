@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32d0d99-0464-4297-a944-9bbdc58e94bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom_docker_registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom_docker_registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_docker_registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/pom_docker_registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/src/main/java/com/zb/TestMyEuerkaServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/src/main/resources/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myeuerkaserver/target/classes/com/zb/TestMyEuerkaServer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,29 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="16" lean-forward="true" selection-end-line="57" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom_docker_registry.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zb/TestMyEuerkaServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="110">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
@@ -52,17 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="176">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Dockerfile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="110">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -82,9 +77,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zb/TestMyEuerkaServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Dockerfile" />
         <option value="$PROJECT_DIR$/pom_docker_registry.xml" />
       </list>
@@ -108,8 +103,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="169" />
+    <option name="x" value="345" />
+    <option name="y" value="96" />
     <option name="width" value="1218" />
     <option name="height" value="890" />
   </component>
@@ -127,30 +122,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="myeuerkaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myeuerkaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myeuerkaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myeuerkaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myeuerkaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myeuerkaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myeuerkaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myeuerkaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="myeuerkaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myeuerkaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-euerka-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-euerka-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -187,7 +190,6 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project1\my-euerka-server" />
-      <recent name="D:\project1\my-euerka-server\src\main\resources" />
       <recent name="D:\project\my-euerka-server\src\main\resources" />
     </key>
   </component>
@@ -203,9 +205,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TestMyEuerkaServer (1)">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="my-euerka-server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="my-euerka-server" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyEuerkaServer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="my-euerka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.TestMyEuerkaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMyEuerkaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="myeuerkaserver" />
+      <module name="my-euerka-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zb.*" />
@@ -219,6 +281,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TestMyEuerkaServer (1)" />
         <item itemvalue="Spring Boot.TestMyEuerkaServer" />
       </list>
     </recent_temporary>
@@ -241,21 +304,18 @@
       <workItem from="1568615103181" duration="781000" />
       <workItem from="1568616066382" duration="3242000" />
       <workItem from="1568700029397" duration="683000" />
-      <workItem from="1568712814635" duration="1581000" />
-      <workItem from="1568731437913" duration="1102000" />
-      <workItem from="1568734271897" duration="150000" />
-      <workItem from="1568768360390" duration="102000" />
+      <workItem from="1568769381016" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13961000" />
+    <option name="totallyTimeSpent" value="11308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="169" width="1218" height="890" extended-state="0" />
+    <frame x="345" y="96" width="1218" height="890" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32469776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3134715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -266,7 +326,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42155525" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32605729" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,43 +357,50 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/my-euerka-server.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" lean-forward="true" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zb/TestMyEuerkaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom_docker_registry.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zb/TestMyEuerkaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zb</groupId>
-    <artifactId>myeuerkaserver</artifactId>
+    <artifactId>my-euerka-server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <java.version>1.8</java.version>
@@ -47,33 +47,10 @@
     </dependencyManagement>
 
     <build>
-        <finalName>${project.artifactId}-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <configuration>
-                    <imageName>${project.artifactId}-${project.version}</imageName>
-                    <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
-                    <imageTags>
-                        <imageTag>${project.version}</imageTag>
-                    </imageTags>
-                    <registryUrl>192.168.1.110:5000</registryUrl>
-                    <pushImage>true</pushImage>
-                    <imageName>192.168.1.110:5000/${project.artifactId}:${project.version}</imageName>
-                    <resources>
-                        <resource>
-                            <targetPath>/</targetPath>
-                            <directory>${project.build.directory}</directory>
-                            <include>${project.artifactId}-${project.version}.jar</include>
-                        </resource>
-                    </resources>
-                </configuration>
             </plugin>
         </plugins>
     </build>
